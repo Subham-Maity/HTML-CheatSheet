@@ -15,7 +15,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [Table](#table)
 * [Links](#links)
 * [Form](#form)
-* [Characters & Symbols](#characters-&-symbols)
+* [Characters & Symbols](#characters-and-symbols)
 * [Random Text](#random-text)
 * [Semantic Elements](#semantic-elements)
 
@@ -385,7 +385,7 @@ Form is used to collect user's input, generally user's data is sent to server fo
 
 
 
-### **Characters & Symbols**
+### **Characters and Symbols**
 
 Some symbols are not directly present on the keyboard, but there are some ways to use them in HTML documents. We can display them either by entity name, decimal, or hexadecimal value.
 
