@@ -7,21 +7,17 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 ## **HTML Cheatsheets**
 
 * [Structure](#structure)
-* [Headings](###headings)
-* [Comments](#comments)
-* [Constants](#constants)
-* [Arithmetic Expressions](#arithmetic-expressions)
-* [Augmented Operators](#augmented-operators)
-* [Escape Sequences](#escape-sequences)
-* [Type Casting](#type-casting)
-* [Decision Control Statements](#decision-control-statements)
-* [Ternary Operator](#ternary-operator)
-* [Switch Statements](#switch-statements)
-* [Iterative Statements](#iterative-statements)
-* [Math Class](#math-class)
-* [Object-Oriented Programming](#object-oriented-programming)
-* [File Operations](#file-operations)
-* [Exception Handling](#exception-handling)
+* [Headings](#headings)
+* [Container](#container)
+* [Text Formatting](#text-formatting)
+* [Lists](#lists)
+* [Media](#media)
+* [Table](#table)
+* [Links](#links)
+* [Form](#form)
+* [Characters & Symbols](#characters-&-symbols)
+* [Random Text](#random-text)
+* [Semantic Elements](#semantic-elements)
 
 
 
