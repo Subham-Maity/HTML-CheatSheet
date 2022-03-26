@@ -31,7 +31,7 @@ This is the basic template or barebone structure of HTML.
 #### **Boilerplate**
 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +54,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 #### **&lt;h1> Tag**
 
 
-```
+```html
 <h1>Heading 1</h1>
 ```
 
@@ -63,7 +63,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 #### **&lt;h2> Tag**
 
 
-```
+```html
 <h2>Heading 2</h2>
 ```
 
@@ -72,7 +72,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 #### **&lt;h3> Tag**
 
 
-```
+```html
 <h3>Heading 3</h3>
 ```
 
@@ -81,7 +81,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 #### **h4 Tag**
 
 
-```
+```html
 <h4>Heading 4</h4>
 ```
 
@@ -90,7 +90,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 #### **h5 Tag**
 
 
-```
+```html
 <h5>Heading 5</h5>
 ```
 
@@ -99,7 +99,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 #### **h6 Tag**
 
 
-```
+```html
 <h6>Heading 6</h6>
 ```
 
@@ -115,7 +115,7 @@ Container tags are the tags that contain some data such as text, image, etc. The
 div tag or division tag is used to make blocks or divisions in the document.
 
 
-```
+```html
 <div> This is div block </div>
 ```
 
@@ -126,7 +126,7 @@ div tag or division tag is used to make blocks or divisions in the document.
 span is a container for inline content
 
 
-```
+```html
 <span> This is span block </span>
 ```
 
@@ -137,7 +137,7 @@ span is a container for inline content
 Paragraph
 
 
-```
+```html
 <p> This is a paragraph </p>
 ```
 
@@ -148,7 +148,7 @@ Paragraph
 pre tag represents pre-formatted text
 
 
-```
+```html
 <pre> Hello World </pre>
 ```
 
@@ -159,7 +159,7 @@ pre tag represents pre-formatted text
 code tag is used to represent source codes
 
 
-```
+```html
 <code>
 import python
 </code>
@@ -175,7 +175,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 #### **&lt;b> tag**
 
 
-```
+```html
 <b>I'm bold text</b>
 ```
 
@@ -184,7 +184,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 #### **&lt;strong> tag**
 
 
-```
+```html
 <strong>I'm important text</strong>
 ```
 
@@ -193,7 +193,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 #### **&lt;i> tag**
 
 
-```
+```html
 <i>I'm italic text</i>
 ```
 
@@ -202,7 +202,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 #### **&lt;em> tag**
 
 
-```
+```html
 <em>Emphasized text</em>
 ```
 
@@ -211,7 +211,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 #### **&lt;sub> tag**
 
 
-```
+```html
 <sub>Subscript</sub>
 ```
 
@@ -219,8 +219,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 
 #### **&lt;sup> tag**
 
-
-```
+```html
 <sup>Superscript</sup>
 ```
 
@@ -236,7 +235,7 @@ Lists can be either numerical, alphabetic, bullet, or other symbols. You can spe
 Ordered list starts with &lt;ol> tag and each list item starts with &lt;li> tag
 
 
-```
+```html
 <ol>
     <li>Data 1</li>
     <li>Data 2</li>
@@ -249,7 +248,7 @@ Ordered list starts with &lt;ol> tag and each list item starts with &lt;li> tag
 #### **&lt;ul> tag**
 
 
-```
+```html
 <ul>
     <li>Your Data</li>
     <li>Your Data</li>
@@ -268,7 +267,7 @@ Media is anything that is present in digital form such as image, video, audio, e
 It is used to embed sound content in the document.
 
 
-```
+```html
 <audio controls>
     <source src="demo.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
@@ -282,7 +281,7 @@ It is used to embed sound content in the document.
 It is used to embed or import image in a webpage.
 
 
-```
+```html
 <img src="Source_of_image" alt="Alternate text">
 ```
 
@@ -292,8 +291,7 @@ It is used to embed or import image in a webpage.
 
 It is used to embed video in the webpage.
 
-
-```
+```html
 <video width="480" height="320" controls>
     <source src="demo_move.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -310,7 +308,7 @@ A table is a collection of rows and columns. It is used to represent data in tab
 #### **Table Structure**
 
 
-```
+```html
 <table>
     <caption>Demo Table</caption>
     <thead>
@@ -353,7 +351,7 @@ Links are clickable text that can redirect you to some other page.
 &lt;a> or anchor tag defines a hyperlink.
 
 
-```
+```html
 <a href="https://www.codewithcodexam.com/">Visit CodeWithcodexam.com!</a>
 ```
 
@@ -367,7 +365,7 @@ Links are clickable text that can redirect you to some other page.
 Form is used to collect user's input, generally user's data is sent to server for further processing.
 
 
-```
+```html
 <form action="/action.php" method="post">
     Name: <input name="name" type="text" /> <br />
     Age: <input max="90" min="1" name="age" step="1" type="number" value="18" /> <br />
@@ -393,7 +391,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 #### **right Symbol (©)**
 
 
-```
+```html
 &;
 ```
 
@@ -402,7 +400,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 #### **Less than (&lt;)**
 
 
-```
+```html
 &lt
 ```
 
@@ -410,8 +408,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 
 #### **Greater than (>)**
 
-
-```
+```html
 &gt;
 ```
 
@@ -420,7 +417,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 #### **Ampersand (&)**
 
 
-```
+```html
 &amp;
 ```
 
@@ -429,7 +426,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 #### **Dollar ($)**
 
 
-```
+```html
 &dollar;
 ```
 
@@ -441,7 +438,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 #### **Elon Musk**
 
 
-```
+```html
 Elon Reeve Musk FRS is an entrepreneur and business magnate. He is the founder, CEO, and Chief Engineer at SpaceX; early stage investor, CEO, and Product Architect of Tesla, Inc.; founder of The Boring Company; and co-founder of Neuralink and OpenAI. A centibillionaire, Musk is one of the richest people in the world.
 ```
 
@@ -457,7 +454,7 @@ Semantic elements are those elements that are self describable, i.e., from their
 It defines a section in the document
 
 
-```
+```html
 <section>This is a section</section>
 ```
 
@@ -468,7 +465,7 @@ It defines a section in the document
 It represents self-contained content
 
 
-```
+```html
 <article> Enter your data here </article>
 ```
 
@@ -479,5 +476,5 @@ It represents self-contained content
 It is used to place content in the sidebar
 
 
-```
+```html
 <aside> Your data </aside>
